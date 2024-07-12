@@ -9,7 +9,7 @@ import {
   Heading,
   CardFooter,
   Button,
-  Image,
+
   Avatar,
 } from "@chakra-ui/react";
 import { Data } from "../components/Constant/Data";

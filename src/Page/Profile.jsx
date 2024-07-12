@@ -23,22 +23,21 @@ const Profile = () => {
           <List spacing={4}>
             <ListItem>
               <ListIcon as={EmailIcon} />
-              Email: Example@gmail.com
+              Email: Damilare@gmail.com
             </ListItem>
             <ListItem>
               <ListIcon as={ChatIcon} />
-              Lorem ipsum dolor sit.
+              You have five notifications unchecked
             </ListItem>
             <ListItem>
               <ListIcon as={CheckCircleIcon} />
-              Number of Post: 20</ListItem>
+              Number of Post: 20
+            </ListItem>
           </List>
         </TabPanel>
         <TabPanel>
           <List>
-            <ListItem>
-              No Blog History yet
-            </ListItem>
+            <ListItem>No Blog History yet</ListItem>
           </List>
         </TabPanel>
       </TabPanels>

@@ -1,17 +1,15 @@
-// import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "../../Page/Dashboard";
 import Profile from "../../Page/Profile";
-import Create from "../../Page/Create";
+import CreateTask from "../../Page/Create";
+import { Routes, Route } from "react-router-dom";
+
 const AppRouter = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" Component={Dashboard} />
-        <Route path="/profile" Component={Profile} />
-        <Route path="/create" Component={Create} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/create" element={<CreateTask />} />
+      <Route path="/profile" element={<Profile />} />
+    </Routes>
   );
 };
 
